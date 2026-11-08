@@ -3,72 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery - St. Peter's Budokomi Senior School</title>
+    <title>Gallery - My CSC2130 Project</title>
 </head>
 <body>
 
-    <!-- 1. THE HEADER -->
+    <!-- Header & Nav -->
     <header>
-        <div>
-            <img src="images/logo.png" alt="St. Peter's Budokomi Senior School Logo" width="80">
-            <h1>St. Peter's Budokomi Senior School</h1>
-            <p><em>Elimu ni Ngao</em></p>
-        </div>
-
+        <h1>Project Gallery</h1>
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="staff.html">Our Staff</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="contact.html">Contact</a> |
+            <a href="data.html">Data</a> |
+            <a href="gallery.html">Gallery</a>
         </nav>
     </header>
 
-    <!-- 2. MAIN CONTENT -->
     <main>
-        
-        <h2>School Gallery</h2>
-        <p>Explore the vibrant life at St. Peter's Budokomi Senior School, from our classrooms to our co-curricular activities.</p>
-
-        <!-- Gallery Section 1: Campus & Facilities -->
+        <!-- Section 1: Images (Requirement c) -->
         <section>
-            <h3>Our Campus & Facilities</h3>
-            
-            <!-- Placeholder images - the Admin will replace these later -->
-            <figure>
-                <img src="images/banner.png" alt="St. Peter's Budokomi School Campus" width="300" loading="lazy">
-                <figcaption>The main school campus and grounds.</figcaption>
-            </figure>
-
-            <figure>
-                <img src="images/logo.png" alt="School Crest" width="300" loading="lazy">
-                <figcaption>The St. Peter's Budokomi school crest.</figcaption>
-            </figure>
+            <h2>Images</h2>
+            <!-- Using your images folder, with alt text and lazy loading -->
+            <img src="images/logo.png" alt="Project logo" width="300" loading="lazy">
+            <img src="images/school.JPG" alt="School campus image" width="300" loading="lazy">
+            <img src="images/logo.png" alt="Project logo repeated" width="300" loading="lazy">
         </section>
 
-        <!-- Gallery Section 2: Student Life & Events -->
+        <!-- Section 2: Table (Requirement d) -->
         <section>
-            <h3>Student Life & Events</h3>
-
-            <figure>
-                <img src="images/banner.png" alt="Students during a school event" width="300" loading="lazy">
-                <figcaption>Students participating in the Stakeholders Engagement Forum.</figcaption>
-            </figure>
-
-            <figure>
-                <img src="images/banner.png" alt="Students in the classroom" width="300" loading="lazy">
-                <figcaption>Focused learning in our modern classrooms.</figcaption>
-            </figure>
+            <h2>Summary Table</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th scope="col">Category</th>
+                        <th scope="col">Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Completed</td>
+                        <td>10</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
 
+        <!-- Article (Requirement b) -->
+        <article>
+            <h2>About This Gallery</h2>
+            <p>This gallery showcases the visual elements and media of the project.</p>
+        </article>
+
+        <!-- Section 3: Media (Requirement e) -->
+        <section>
+            <h2>Media</h2>
+            <!-- Video element with controls, dimensions, and a poster -->
+            <video controls width="640" height="360" poster="images/logo.png">
+                <source src="media/intro.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+        </section>
+
+        <!-- Aside (Requirement b) -->
+        <aside>
+            <h3>Related Links</h3>
+            <ul>
+                <li><a href="index.html">Back to Home</a></li>
+            </ul>
+        </aside>
     </main>
 
-    <!-- 3. THE FOOTER -->
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2026 St. Peter's Budokomi Senior School. All rights reserved.</p>
-        <p><small><a href="login.html">Staff & Admin Portal</a></small></p>
+        <p>&copy; 2026 My CSC2130 Project.</p>
     </footer>
 
 </body>
