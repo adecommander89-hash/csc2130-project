@@ -3,79 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery - My CSC2130 Project</title>
+    <title>Gallery - St. Peter's Budokomi Senior School</title>
 </head>
 <body>
 
-    <!-- Header & Nav -->
+    <!-- Header & Navigation -->
     <header>
-        <h1>Project Gallery</h1>
+        <img src="images/logo.png" alt="St. Peter's Budokomi Senior School Logo" width="80">
+        
+        <h1>St. Peter's Budokomi Senior School</h1>
+        <p><em>Elimu ni Ngao</em></p>
+        
         <nav>
             <a href="index.html">Home</a> |
-            <a href="about.html">About</a> |
-            <a href="contact.html">Contact</a> |
-            <a href="data.html">Data</a> |
+            <a href="about.html">About Us</a> |
+            <a href="contact.html">Contact Us</a> |
+            <a href="data.html">Fee Structure</a> |
             <a href="gallery.html">Gallery</a>
         </nav>
     </header>
 
+    <!-- Main Content -->
     <main>
-        <!-- Section 1: Images (Requirement c) -->
+        
         <section>
-            <h2>Images</h2>
-            <!-- Using your images folder, with alt text and lazy loading -->
-            <img src="images/logo.png" alt="Project logo" width="300" loading="lazy">
-            <img src="images/school.JPG" alt="School campus image" width="300" loading="lazy">
-            <img src="images/logo.png" alt="Project logo repeated" width="300" loading="lazy">
+            <h2>School Gallery</h2>
+            <p>Explore the vibrant life at St. Peter's Budokomi Senior School, from our campus grounds to our student activities.</p>
         </section>
 
-        <!-- Section 2: Table (Requirement d) -->
+        <!-- Lab Q5 (c): At least 3 images. We have 7! -->
         <section>
-            <h2>Summary Table</h2>
+            <h3>School Life & Campus</h3>
+            
+            <!-- Replace the src names with your actual 7 picture names -->
+            <img src="images/pc9.JPG" alt="St. Peter's Budokomi Campus" width="300" loading="lazy">
+            <img src="images/DSC00766.JPG" alt="Students in class" width="300" loading="lazy">
+            <img src="images/school.JPG" alt="School Administration Block" width="300" loading="lazy">
+            <img src="images/pc7.JPG" alt="Students during sports" width="300" loading="lazy">
+            <img src="images/pc6.jpeg" alt="School library" width="300" loading="lazy">
+            <img src="images/DSC00764.JPG" alt="School event" width="300" loading="lazy">
+            <img src="images/DSC01125.JPG" alt="School grounds" width="300" loading="lazy">
+        </section>
+
+        <!-- Lab Q5 (d): A table in one of the sections -->
+        <section>
+            <h3>Recent School Events</h3>
             <table border="1">
+                <caption>Timeline of Events - Term 3, 2026</caption>
                 <thead>
                     <tr>
-                        <th scope="col">Category</th>
-                        <th scope="col">Total</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Event</th>
+                        <th scope="col">Venue</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Completed</td>
-                        <td>10</td>
+                        <td>30th Sept 2026</td>
+                        <td>Stakeholders Engagement Forum</td>
+                        <td>Main Hall</td>
+                    </tr>
+                    <tr>
+                        <td>15th Oct 2026</td>
+                        <td>Form 4 Mock Exams Begin</td>
+                        <td>Exam Rooms</td>
+                    </tr>
+                    <tr>
+                        <td>28th Oct 2026</td>
+                        <td>End of Term Closing Day</td>
+                        <td>School Grounds</td>
                     </tr>
                 </tbody>
             </table>
         </section>
 
-        <!-- Article (Requirement b) -->
+        <!-- Lab Q5 (b): At least one article -->
         <article>
-            <h2>About This Gallery</h2>
-            <p>This gallery showcases the visual elements and media of the project.</p>
+            <h2>Our School Community</h2>
+            <p>We believe that learning extends beyond the classroom. Our gallery captures the moments that define us—from academic achievements to sports and community events.</p>
         </article>
 
-        <!-- Section 3: Media (Requirement e) -->
+        <!-- Lab Q5 (e): A video or audio element -->
         <section>
-            <h2>Media</h2>
-            <!-- Video element with controls, dimensions, and a poster -->
-            <video controls width="640" height="360" poster="images/logo.png">
-                <source src="media/intro.mp4" type="video/mp4">
+            <h3>School Video Entertainment</h3>
+            <p>Watch a short video of our students in action.</p>
+            <!-- You will need a video file in your media folder named intro.mp4 -->
+            <video controls width="640" height="360" poster="images/poster.png">
+                <source src="media/budoent.mp4" type="video/mp4">
                 Your browser does not support the video element.
             </video>
         </section>
 
-        <!-- Aside (Requirement b) -->
-        <aside>
-            <h3>Related Links</h3>
-            <ul>
-                <li><a href="index.html">Back to Home</a></li>
-            </ul>
-        </aside>
     </main>
+
+    <!-- Lab Q5 (b): At least one aside -->
+    <aside>
+        <h3>Quick Links</h3>
+        <ul>
+            <li><a href="about.html">Read our Mission & Vision</a></li>
+            <li><a href="contact.html">Contact the School</a></li>
+            <li><a href="data.html">View Fee Structure</a></li>
+        </ul>
+    </aside>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; All rights reserved.</p>
+        <p>&copy; 2026 St. Peter's Budokomi Senior School. All rights reserved.</p>
+        <p>Contact: 0711155738 | budokomisecondary@gmail.com</p>
     </footer>
 
 </body>
