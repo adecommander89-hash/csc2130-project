@@ -4,7 +4,7 @@
 [Your Project Title]
 
 ## Student Information
-- **Name:** Filex Mutere
+- **Name:** FILEX MUTERE
 - **Registration Number:** COM/0047/25
 - **Course:** CSC2130 - Introduction to Web Development
 
