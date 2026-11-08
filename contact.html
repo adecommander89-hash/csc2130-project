@@ -60,6 +60,47 @@
             </ul>
         </section>
 
+                <!-- Week 4 Lab: Parent Enquiry Form -->
+        <section>
+            <h2>Send Us a Message</h2>
+            <p>If you have any questions regarding admissions or school fees, please fill out the form below.</p>
+
+            <form action="process_enquiry.php" method="post">
+                <fieldset>
+                    <legend>Enquiry Details</legend>
+
+                    <!-- Text Input -->
+                    <label for="parent-name">Parent/Guardian Name:</label><br>
+                    <input type="text" id="parent-name" name="parent-name" placeholder="e.g., John Doe" required><br><br>
+
+                    <!-- Email Input -->
+                    <label for="parent-email">Email Address:</label><br>
+                    <input type="email" id="parent-email" name="parent-email" placeholder="e.g., john@example.com" required><br><br>
+
+                    <!-- Phone Input -->
+                    <label for="parent-phone">Phone Number:</label><br>
+                    <input type="tel" id="parent-phone" name="parent-phone" placeholder="e.g., 0712345678" required><br><br>
+
+                    <!-- Select Dropdown -->
+                    <label for="enquiry-type">Type of Enquiry:</label><br>
+                    <select id="enquiry-type" name="enquiry-type" required>
+                        <option value="">-- Please select --</option>
+                        <option value="admissions">Admissions</option>
+                        <option value="fees">School Fees</option>
+                        <option value="academics">Academics</option>
+                        <option value="other">Other</option>
+                    </select><br><br>
+
+                    <!-- Textarea -->
+                    <label for="message">Your Message:</label><br>
+                    <textarea id="message" name="message" rows="5" cols="40" placeholder="Type your message here..." required></textarea><br><br>
+
+                    <!-- Submit Button -->
+                    <button type="submit">Send Message</button>
+                </fieldset>
+            </form>
+        </section>
+
         <!-- Location / Google Map (Week 3 Lab Q4) -->
         <section>
             <h2>Our Location</h2>
