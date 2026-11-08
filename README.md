@@ -4,19 +4,19 @@
 [Your Project Title]
 
 ## Student Information
-- **Name:** [Your Name]
-- **Registration Number:** [Your Reg. No.]
+- **Name:** Filex Mutere
+- **Registration Number:** COM/0047/25
 - **Course:** CSC2130 - Introduction to Web Development
 
 ## Project Description
-[Brief description of your project - e.g., A web-based system for managing school fees and student records.]
+A web-based system for managing school fees and student records. The system automates the fee reminder problem by eliminating the manual receipts methods. This works by automatically remind a parent of thir children fee balannce by an instant sms.
 
 ## Technologies Used
 - HTML5
-- CSS3 (coming soon)
-- JavaScript (coming soon)
-- PHP (coming soon)
-- MySQL (coming soon)
+- CSS3
+- JavaScript
+- PHP
+- MySQL
 
 ## Pages
 - `index.html` - Home page
